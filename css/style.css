@@ -1,0 +1,137 @@
+header {
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	padding: 50px;
+	background-color: #31cd31;
+	opacity: 0.5;
+	z-index: 100;
+}
+main {
+	background-color: greenyellow;
+}
+.fixed {
+	max-width: 200px;
+	min-height: 50px;
+	background-color: #104432;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	top: 400px;
+	left: 0px;
+}
+.car-page {
+	max-width: 700px;
+	min-height: 700px;
+	background: url("../img/road.jpg") center / cover no-repeat;
+	margin: auto;
+	position: relative; 
+}
+.car-page__details {
+	position: absolute;
+	top: 430px;
+	left: 10px;
+}
+.car__upper-body {
+	background-color: #ec6db0;
+	width: 220px;
+	height: 114px;
+	border-radius: 40% 60% 100% 0% / 100% 50% 50% 0%;
+	position: absolute;
+	left: 180px;
+	top: 30px;
+	z-index: 0;
+}
+.car__down-body {
+	background-color: #f27bba;
+	width: 400px;
+	height: 120px;
+	border-radius: 76% 24% 20% 80% / 81% 52% 48% 19%;
+	position: absolute;
+	left: 100px;
+	top: 90px;
+	z-index: 2;
+	box-shadow: 8px 15px 8px black;
+}
+.car__wheel {
+	background-color: gray;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 170px;
+	left: 180px;
+	z-index: 3;
+	box-shadow: 1px 9px 4px black;
+}
+.car__wheel--right {
+	position: absolute;
+	left: 350px;
+}
+.car__rim {
+	background-color: silver;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 184px;
+	left: 195px;
+	z-index: 4;
+}
+.car__rim--right {
+	position: absolute;
+	left: 365px;
+}
+.car__window {
+	background-color: #000000c6;
+	width: 150px;
+	height: 70px;
+	border-radius: 40% 60% 100% 0% / 100% 50% 50% 0%;
+	position: absolute;
+	top: 55px;
+	left: 218px;
+	z-index: 1;
+}
+.car__spotlight {
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 120px;
+	left: 460px;
+	z-index: 2;
+}
+.car__spotlight:hover {
+	background-color: #fbe708;
+	transition: all 0.8s ease 0s;
+}
+.text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+.text p {
+	color: azure;
+	padding: 10px;
+	position: sticky;
+	top: 500px;
+}
+span {
+	color: red;
+	font-weight: 900;
+	font-size: 60px;
+}
+.text__p--green {
+	background-color: green;
+	z-index: 1;
+}
+.text__p--orange {
+	background-color: orange;
+}
+.text__p--darkblue {
+	background-color: darkblue;
+}
+.text__p--blue {
+	background-color: blue;
+}
